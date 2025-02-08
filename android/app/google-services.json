@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "269415679042",
+    "project_id": "flmov-project",
+    "storage_bucket": "flmov-project.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269415679042:android:80b9b61d0a2fb29ea1d9db",
+        "android_client_info": {
+          "package_name": "com.example.movie_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASYy0trG7WHKxgfKs76_dfjpoZMEMSrww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269415679042:android:863c080124eecacba1d9db",
+        "android_client_info": {
+          "package_name": "com.flmov"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASYy0trG7WHKxgfKs76_dfjpoZMEMSrww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
