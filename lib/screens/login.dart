@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:movie_app/index/auth_service.dart';
+import 'package:movie_app/screens/account_screen.dart';
 import 'package:movie_app/screens/regrister_screen.dart';
 import 'package:movie_app/tabbar/bottom_tab_nav.dart';
 
@@ -35,9 +36,10 @@ class _LoginScreenState extends State<LoginScreen> {
 
     if (userId != null) {
       _showMessage("Đăng nhập thành công!");
-      Navigator.pushReplacement(
+      Navigator.pushAndRemoveUntil(
         context,
         MaterialPageRoute(builder: (context) => const BottomNav()),
+        (route) => false, // This will remove all previous routes
       );
     } else {
       _showMessage("Sai tài khoản hoặc mật khẩu!");
